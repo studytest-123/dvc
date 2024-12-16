@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-o%(j4h_z$zy9hnc&9guk2896oe@!1d4ztams5gu1g4n$c^_&rw
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['studycompass-backend.onrender.com']
 
 
 # Application definition
