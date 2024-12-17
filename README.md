@@ -3,10 +3,11 @@ DVC-E1
 Einsendeaufgabe DVC-E1: Versionsverwaltung mit Git
 
 1. Erstellen Sie sich ein Repository in Github oder GitLab.
-![grafik](https://github.com/user-attachments/assets/8c888684-c777-4423-8847-0b702d7536a3)
+![grafik](https://github.com/user-attachments/assets/0eb2340c-a3df-43cf-aa76-260389eb9085)
 
 2. Pushen Sie ein eigenes Projekt von Ihnen hoch (z.B. das CCD-Projekt) oder erstellen Sie ein neues Projekt!
-zu 2. erledigt
+![grafik](https://github.com/user-attachments/assets/2ebe9ba4-17ef-4c21-9cef-eb44dc9eb19a)
+
 3. Wenden Sie alle in den Unterlagen genannten relevanten Methoden beweisbar an: (das Github Repo ist Beweis) push, pull, add, commit, diff, status, rm/mv, etc.
 ![grafik](https://github.com/user-attachments/assets/df6a5a1f-9061-4604-8414-717271fd6ac4)
 4. Experimentieren Sie mit Zeitreisen!
