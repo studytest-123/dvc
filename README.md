@@ -42,6 +42,9 @@ rm/mv:
 
 4. Experimentieren Sie mit Zeitreisen!
 
+![grafik](https://github.com/user-attachments/assets/53bb29f4-47b5-469f-ab25-d7bbe1ba3fd5)
+
+![grafik](https://github.com/user-attachments/assets/1fe101a2-fe9a-41be-b266-53d31fc1db29)
 
 5. Erstellen sie zwei unterschiedliche aber ähnliche Branches, wechseln sie hin und her und mergen sie diese Branches dann wieder!
 
