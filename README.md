@@ -38,10 +38,17 @@ status:
 
 rm/mv:
 
+![grafik](https://github.com/user-attachments/assets/6aef8602-1a2b-4dca-b9d5-bf586a1bcb6c)
 
-5. Experimentieren Sie mit Zeitreisen!
-6. Erstellen sie zwei unterschiedliche aber ähnliche Branches, wechseln sie hin und her und mergen sie diese Branches dann wieder!
-zu 5. erledigt
-7. Erstellen Sie in GitHub einen kleinen Pull-Request bezugnehmend auf https://github.com/edlich/education! (was kleines, nützliches, witziges, etc.)
+4. Experimentieren Sie mit Zeitreisen!
+
+
+5. Erstellen sie zwei unterschiedliche aber ähnliche Branches, wechseln sie hin und her und mergen sie diese Branches dann wieder!
+
+![grafik](https://github.com/user-attachments/assets/e442040e-0d6c-416d-b62e-0a69e296cf76)
+
+6. Erstellen Sie in GitHub einen kleinen Pull-Request bezugnehmend auf https://github.com/edlich/education! (was kleines, nützliches, witziges, etc.)
+
+
 
 Bitte referenzieren Sie auf den Pull-Request mit Link oder der Pull-Request Nummer! Kryptische GitHub Namen kann ich kaum zuordnen. Die Aufgabenteile vor dem Pull-Request bitte nicht in den Pull-Request einbauen, sondern extra abgeben! 
