@@ -12,7 +12,7 @@ Einsendeaufgabe DVC-E1: Versionsverwaltung mit Git
 
 push:
 
-pull:
+pull:\n
 ![grafik](https://github.com/user-attachments/assets/e965a8d4-eab5-42b5-b7ff-4b1bc09d5f4e)
 
 add:
