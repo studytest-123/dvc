@@ -49,6 +49,9 @@ rm/mv:
 
 6. Erstellen Sie in GitHub einen kleinen Pull-Request bezugnehmend auf https://github.com/edlich/education! (was kleines, nützliches, witziges, etc.)
 
+https://github.com/edlich/education/pull/533
+
+![grafik](https://github.com/user-attachments/assets/2361a8dd-6822-4bef-b9a2-80dd70354d2a)
 
 
 Bitte referenzieren Sie auf den Pull-Request mit Link oder der Pull-Request Nummer! Kryptische GitHub Namen kann ich kaum zuordnen. Die Aufgabenteile vor dem Pull-Request bitte nicht in den Pull-Request einbauen, sondern extra abgeben! 
