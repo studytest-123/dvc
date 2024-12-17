@@ -7,7 +7,7 @@ zu 1. erledigt
 2. Pushen Sie ein eigenes Projekt von Ihnen hoch (z.B. das CCD-Projekt) oder erstellen Sie ein neues Projekt!
 zu 2. erledigt
 3. Wenden Sie alle in den Unterlagen genannten relevanten Methoden beweisbar an: (das Github Repo ist Beweis) push, pull, add, commit, diff, status, rm/mv, etc.
-git status ![alt text](image.png)
+![grafik](https://github.com/user-attachments/assets/df6a5a1f-9061-4604-8414-717271fd6ac4)
 4. Experimentieren Sie mit Zeitreisen!
 5. Erstellen sie zwei unterschiedliche aber ähnliche Branches, wechseln sie hin und her und mergen sie diese Branches dann wieder!
 zu 5. erledigt
