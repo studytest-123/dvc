@@ -1,0 +1,14 @@
+# Virtuelle Umgebung
+venv/
+
+# Python-Dateien
+__pycache__/
+*.pyc
+*.pyo
+
+# Lokale Konfigurationen
+.env
+db.sqlite3
+
+# Sonstiges
+*.log
