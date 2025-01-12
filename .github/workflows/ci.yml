@@ -1,0 +1,37 @@
+name: Django CI with SonarQube
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Install dependencies
+      run: |
+        python -m venv venv
+        . venv/bin/activate
+        pip install -r requirements.txt
+
+    - name: Run tests with coverage
+      run: |
+        . venv/bin/activate
+        coverage run manage.py test
+        coverage xml
+
+    - name: Upload coverage to SonarQube
+      uses: sonarsource/sonarcloud-github-action@v2
+      with:
+        args: >
+          -Dsonar.python.coverage.reportPaths=coverage.xml
