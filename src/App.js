@@ -1,15 +1,21 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import StudyPrograms from './StudyPrograms';
-import StudyProgramDetails from './StudyProgramDetails';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Login from './Login';
+import CreateStudyProgram from './CreateStudyProgram';
 
 const App = () => {
+  const [user, setUser] = useState(null);
+
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<StudyPrograms />} />
-        <Route path="/studyprograms/:id" element={<StudyProgramDetails />} />
-      </Routes>
+      <Switch>
+        <Route exact path="/">
+          <Login setUser={setUser} />
+        </Route>
+        <Route path="/create-study-program">
+          <CreateStudyProgram />
+        </Route>
+      </Switch>
     </Router>
   );
 };
