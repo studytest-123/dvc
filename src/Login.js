@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 const Login = ({ setUser }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
-  const history = useHistory();
+  const navigate = useNavigate();
 
   const handleLogin = async (e) => {
     e.preventDefault();
@@ -22,7 +22,7 @@ const Login = ({ setUser }) => {
       setUser(data);
       
       // Weiterleitung zur Studiengang-Auswahl
-      history.push('/create-study-program');
+      navigate.push('/create-study-program');
     } catch (err) {
       setError('Login fehlgeschlagen. Bitte versuche es erneut.');
     }
