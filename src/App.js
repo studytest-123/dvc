@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Login from './Login';
 import CreateStudyProgram from './CreateStudyProgram';
 
@@ -8,14 +8,14 @@ const App = () => {
 
   return (
     <Router>
-      <Switch>
+      <Routes>
         <Route exact path="/">
           <Login setUser={setUser} />
         </Route>
         <Route path="/create-study-program">
           <CreateStudyProgram />
         </Route>
-      </Switch>
+      </Routes>
     </Router>
   );
 };

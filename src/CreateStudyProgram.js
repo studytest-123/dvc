@@ -30,7 +30,7 @@ const CreateStudyProgram = () => {
 
     try {
       // Füge ein neues Studium hinzu
-      await axios.post('https://oqfwncayddaumfgzyeor.supabase.co/rest/v1/your_study_program_table', {
+      await axios.post('https://oqfwncayddaumfgzyeor.supabase.co/rest/v1/personal_study_program', {
         name: programName,
         program_id: selectedProgram
       }, {
